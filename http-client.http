@@ -18,7 +18,7 @@ Content-Type: application/json
 
 {
   "to": "hocgin@gmail.com",
-  "from": "noreply@hocg.in",
+  "from": "noreply@hocgin.com",
   "subject": "Sign in to sso.hocgin.com",
   "text": "Test url",
   "html": "<h1>Test HTML url </h1>"
