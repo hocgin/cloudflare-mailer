@@ -1,5 +1,5 @@
 {
-  "name": "mail",
+  "name": "cloudflare-mailer",
   "version": "0.0.0",
   "private": true,
   "scripts": {
