@@ -1,0 +1,25 @@
+POST http://127.0.0.1:8787/api
+Content-Type: application/json
+
+{
+  "to": "hocgin@gmail.com",
+  "from": "noreply@hocgin.com",
+  "subject": "Sign in to sso.hocgin.com",
+  "text": "Test url",
+  "html": "<h1>Test HTML url </h1>"
+}
+
+
+
+
+###
+POST https://mail.hocgin.workers.dev/api
+Content-Type: application/json
+
+{
+  "to": "hocgin@gmail.com",
+  "from": "noreply@hocg.in",
+  "subject": "Sign in to sso.hocgin.com",
+  "text": "Test url",
+  "html": "<h1>Test HTML url </h1>"
+}
