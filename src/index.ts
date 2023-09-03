@@ -7,11 +7,9 @@ export default {
 				'content-type': 'application/json'
 			},
 			body: JSON.stringify({
-				personalizations: [
-					{
-						to: [{ email: 'hocgin@gmail.com', name: 'Test Recipient' }]
-					}
-				],
+				personalizations: [{
+					to: [{ email: 'hocgin@gmail.com', name: 'Test Recipient' }]
+				}],
 				from: {
 					email: 'sender@hocgin.com',
 					name: 'Workers - MailChannels integration'
